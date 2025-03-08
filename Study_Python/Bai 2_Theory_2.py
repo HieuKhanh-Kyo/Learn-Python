@@ -28,4 +28,4 @@ print(s2.split(" ",3))
 print(s2.count("C", 5, 18))
 # .count()  dem so lan xuat hien chuoi con trong chuoi me
 
-print (s2.)
+print (s2)
