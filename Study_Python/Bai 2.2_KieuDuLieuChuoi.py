@@ -28,4 +28,16 @@ print(s2.split(" ",3))
 print(s2.count("C", 5, 18))
 # .count()  dem so lan xuat hien chuoi con trong chuoi me
 
-print (s2)
+print (s2.find("Cu"))
+# .find()  tim chuoi con trong chuoi goc, tra ve vi tri chu dau tien tim dc, neu k tim thay thi tra ve -1
+
+x = ["Luong", "Hieu", "Khanh"]
+y = " ".join(x)
+
+print(y)
+# .join()  noi chuoi,  <ky tu noi>.join(tham so)
+
+a = "hanh di mua hanh, nhung cho het hanh roi"
+
+print (a.replace("hanh","toi",2))
+# .replace()  Thay the chuoi con trong chuoi goc
