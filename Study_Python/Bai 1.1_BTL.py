@@ -47,10 +47,9 @@ moi = int(input("Nhap chi so moi"))
 
 so_dien = moi - cu
 
-
+tong_tien = 1000
 
 if so_dien < 50:
-    tong_tien = 1000
     tong_tien = tong_tien + so_dien*230
 
 elif so_dien <= 100:
